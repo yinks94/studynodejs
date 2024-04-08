@@ -14,6 +14,7 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "loadsh": "^4.17.21"
+    "loadsh": "0.0.4",
+    "lodash": "^4.17.21"
   }
 }
