@@ -77,6 +77,7 @@ const user1 = {
 const {name: ink94, age, email, address='한국'} = user1
 console.log(`사용자의 이름은 ${ink94}입니다`)
 console.log(`${ink94}의 나이는 ${age}입니다`)
+console.log(`${ink94}의 메일은 ${email}입니다`)
 console.log(`${ink94}의 주소는 ${address}입니다`)
 
 // 전개연산자(Spread)
