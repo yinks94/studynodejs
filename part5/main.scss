@@ -1,0 +1,41 @@
+$color: royalblue;
+h1{
+  color: $color;
+  background-color: orange;
+  font-size: 60px;
+}
+
+.container{
+ > ul {
+    li {
+      font-size: 40px;
+      .name {
+        color: $color;
+      }
+      .age {
+        color: orange;
+      }
+    }
+  }
+}
+
+.btn{
+  position: absolute;
+  &.active{
+    color: red;
+  }
+}
+
+.list{
+  li{
+    &:last-child{
+      margin-right: 0px;
+    }
+  }
+}
+
+fs {
+  &-small   {font-size: 12px}
+  &-medium  {font-size: 14px}
+  &-large   {font-size: 16px}
+}
